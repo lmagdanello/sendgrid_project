@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "concurrently": "^6.2.0",
+    "react-scripts": "^4.0.3"
+  },
+  "scripts": {
+    "dev": "concurrently \"yarn start-server\" \"yarn start-client\"",
+    "start-client": "cd ./client && npm run start",
+    "start-server": "cd ./server && yarn start"
+  },
+  "author": "Leonardo Araujo",
+  "license": "ISC",
+  "description": "Rota de envio de e-mails com templates prontos.",
+  "private": true
+}
